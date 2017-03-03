@@ -13,6 +13,7 @@
 		A1643ACA1E6970D6005587B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1643AC81E6970D6005587B2 /* LaunchScreen.storyboard */; };
 		A1643AD31E69713B005587B2 /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD21E69713B005587B2 /* DropItViewController.swift */; };
 		A1643AD51E697150005587B2 /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD41E697150005587B2 /* DropItView.swift */; };
+		A1643AD71E697384005587B2 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD61E697384005587B2 /* UIKit+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1643ACB1E6970D6005587B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1643AD21E69713B005587B2 /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
 		A1643AD41E697150005587B2 /* DropItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
+		A1643AD61E697384005587B2 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A1643AD11E697104005587B2 /* Supporting Files */,
 				A1643AC31E6970D6005587B2 /* Main.storyboard */,
+				A1643AD61E697384005587B2 /* UIKit+Extensions.swift */,
 				A1643AD21E69713B005587B2 /* DropItViewController.swift */,
 				A1643AD41E697150005587B2 /* DropItView.swift */,
 			);
@@ -107,6 +110,7 @@
 				TargetAttributes = {
 					A1643ABB1E6970D6005587B2 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P6W5FM7RT4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,6 +153,7 @@
 			files = (
 				A1643AD31E69713B005587B2 /* DropItViewController.swift in Sources */,
 				A1643AC01E6970D6005587B2 /* AppDelegate.swift in Sources */,
+				A1643AD71E697384005587B2 /* UIKit+Extensions.swift in Sources */,
 				A1643AD51E697150005587B2 /* DropItView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6W5FM7RT4;
 				INFOPLIST_FILE = DropIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pbo.apps.iOS.DropIt;
@@ -284,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6W5FM7RT4;
 				INFOPLIST_FILE = DropIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pbo.apps.iOS.DropIt;
@@ -311,6 +318,7 @@
 				A1643AD01E6970D6005587B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
