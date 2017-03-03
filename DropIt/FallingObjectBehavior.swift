@@ -21,10 +21,14 @@ class FallingObjectBehavior: UIDynamicBehavior {
     
     private let itemBehavior: UIDynamicItemBehavior = {
         let dib = UIDynamicItemBehavior()
-        dib.allowsRotation = false
+        dib.allowsRotation = true
         dib.elasticity = 0.75
         return dib
     }()
+    
+    func addBarrier(_ path: UIBezierPath, named name: String) {
+        collider.addBoundary(withIdentifier: name as NSCopying, for: path)
+    }
     
     override init() {
         super.init()
@@ -40,9 +44,9 @@ class FallingObjectBehavior: UIDynamicBehavior {
     }
     
     func removeItem(_ item: UIDynamicItem) {
-        gravity.addItem(item)
-        collider.addItem(item)
-        itemBehavior.addItem(item)
+        gravity.removeItem(item)
+        collider.removeItem(item)
+        itemBehavior.removeItem(item)
     }
     
 }

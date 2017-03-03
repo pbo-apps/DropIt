@@ -41,7 +41,7 @@ extension CGRect {
 }
 
 extension UIView {
-    func hitTest(p: CGPoint) -> UIView? {
+    func hitTest(_ p: CGPoint) -> UIView? {
         return hitTest(p, with: nil)
     }
 }

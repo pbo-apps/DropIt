@@ -15,6 +15,7 @@
 		A1643AD51E697150005587B2 /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD41E697150005587B2 /* DropItView.swift */; };
 		A1643AD71E697384005587B2 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD61E697384005587B2 /* UIKit+Extensions.swift */; };
 		A1643AD91E697D22005587B2 /* FallingObjectBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643AD81E697D22005587B2 /* FallingObjectBehavior.swift */; };
+		A1643ADB1E698FC6005587B2 /* NamedBezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1643ADA1E698FC6005587B2 /* NamedBezierPathsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A1643AD41E697150005587B2 /* DropItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
 		A1643AD61E697384005587B2 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
 		A1643AD81E697D22005587B2 /* FallingObjectBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingObjectBehavior.swift; sourceTree = "<group>"; };
+		A1643ADA1E698FC6005587B2 /* NamedBezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedBezierPathsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A1643AD11E697104005587B2 /* Supporting Files */,
 				A1643AC31E6970D6005587B2 /* Main.storyboard */,
 				A1643AD81E697D22005587B2 /* FallingObjectBehavior.swift */,
+				A1643ADA1E698FC6005587B2 /* NamedBezierPathsView.swift */,
 				A1643AD61E697384005587B2 /* UIKit+Extensions.swift */,
 				A1643AD21E69713B005587B2 /* DropItViewController.swift */,
 				A1643AD41E697150005587B2 /* DropItView.swift */,
@@ -156,6 +159,7 @@
 			files = (
 				A1643AD31E69713B005587B2 /* DropItViewController.swift in Sources */,
 				A1643AC01E6970D6005587B2 /* AppDelegate.swift in Sources */,
+				A1643ADB1E698FC6005587B2 /* NamedBezierPathsView.swift in Sources */,
 				A1643AD91E697D22005587B2 /* FallingObjectBehavior.swift in Sources */,
 				A1643AD71E697384005587B2 /* UIKit+Extensions.swift in Sources */,
 				A1643AD51E697150005587B2 /* DropItView.swift in Sources */,
